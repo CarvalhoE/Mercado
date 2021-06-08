@@ -1,0 +1,305 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+	box-sizing: border-box;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+	background-color: #000;
+    height: 90px;
+}
+main{
+	background-color: rgba(0, 0, 0, .3);
+	width: 100%;
+}
+section h3{
+	color: rgb(48, 48, 48);
+}
+nav {
+	background: #000000d7;
+    height: 90px;
+	width: 100%;
+    position: fixed;
+}
+ul li p{
+    margin-left: 0px;
+    color: #fff;
+    font-size: 15pt;
+    margin-right: 6px;
+}
+.logoimg{
+    position: fixed;
+    width: 90px;
+    float: left;
+}
+.logoimg img{
+    width: 90px;
+}
+nav ul {
+	float: right;
+	margin-right: 20px;
+}
+nav ul p{
+	line-height: 0px;
+}
+nav ul li {
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 0px;
+}
+nav ul li a {
+	color: #fff;
+	font-size: 12px;
+	font-weight: 500;
+	padding: 7px 5px;
+	text-transform: uppercase;
+}
+a.active, a:hover {
+	opacity: 0.7;
+}
+#contato p{
+	color: rgba(0, 0, 0, .8);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#contato span{
+	color: rgba(0, 0, 0, .8);
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.checkbtn {
+	font-size: 30px;
+	color: white;
+	float: right;
+	line-height: 80px;
+	margin-right: 40px;
+	cursor: pointer;
+	display: none;
+}
+#check {
+	display: none;
+}
+.title{
+	font-size: 24px;
+	margin: 5px 15px;
+}
+main section{
+	width: 90%;
+}
+main hr{
+	margin: 0 15px;
+	width: 90%;
+	background-color: rgb(0, 0, 0);
+	border-radius: 50px;
+	color: rgb(0, 0, 0);
+	height: 3px;
+}
+.checkbtn{
+	margin-top: 23px;
+}
+.mobile-menu div{
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+}
+.box-container{
+	display: inline-block;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	background: #ccc;
+	width: 500px;
+	margin: 10px 20px;
+}
+.box{
+	flex: 1 1 200px;
+	background: #fff;
+	border: 1px solid rgba(0, 0, 0, .3);
+	overflow: hidden;
+	margin: 20px;
+	height: 430px;
+}
+.box .image{
+	padding: 15px;
+	background: #eee;
+	text-align: center;
+}
+.box .image img{
+	height: 300px;
+	width: 260px;
+	object-fit: cover;
+}
+.box .info .title{
+	padding: 10px;
+	color: #666;
+	font-size: 18px;
+	text-align: center;
+}
+.subInfo{
+	text-align: center;
+	font-size: 18px;
+	color: rgb(69, 69, 69);
+}
+div.image .change{
+	width: 100px;
+}
+div.image .change2{
+	width: 150px;
+}
+div.image .change3{
+	width: 80px;
+}
+div.image .change4{
+	width: 430px;
+}
+
+#contato p{
+	text-align: center;
+	padding: 10px 0;
+}
+#contato form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+#contato form input{
+    padding: 15px;
+    width: 70%;
+    text-align: center;
+    font-size: 16pt;
+    color: #555;
+    border-radius: 10px;
+    border-color: rgba(85, 85, 85, 0.438);
+}
+#contato form .btn{
+    padding: 18px 42px;
+    background-color: #505152;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 20pt;
+    cursor: pointer;
+	margin: 10px 0;
+}
+#contato form span{
+    padding: 10px;
+}
+#contato form textarea{
+    width: 70%;
+    height: 130px;
+    font-size: 16pt;
+    border-radius: 20px;
+}
+footer div{
+    margin-bottom: 5px;
+    font-size: 28pt;
+}
+footer{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+	background: #000000d7;
+	padding: 10px 0px;
+}
+footer a{
+    margin: 0px 10px;
+    color: #fff;
+}
+#topo{
+	text-decoration: none;
+	color: #fff;
+	background-color: #000000d7;
+	padding: 10px;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 3px 3px 10px #000;
+}
+@media (max-width: 1024px){
+	label.logo{
+		font-size: 30px;
+		padding-left: 50px;
+	}
+	nav ul li a{
+		font-size: 10px;
+	}
+	nav ul p{
+		position: absolute;
+		user-select: none;
+		margin-left: 35%;
+		margin-top: 2%;
+	}
+	main{
+		background-color: rgba(0, 0, 0, .3);
+		width: 100%;
+	}
+}
+@media (max-width: 858px){
+	.checkbtn {
+		display: block;
+	}
+	ul{
+		position: fixed;
+		width: 52%;
+		height: 100%;
+		background: #0000007e;
+		top: 90px;
+		left: -100%;
+		text-align: center;
+		transition: all .5s;
+	}
+	nav ul li{
+		display: block;
+		margin: 40px 0;
+		line-height: 30px;
+	}
+	nav ul p{
+		position: initial;
+		margin-left: -2px;
+	}
+	nav ul li a {
+		font-size: 20px;
+	}
+	a:hover, a.active {
+		background: none;
+		color: #ffffff;
+	}
+	#check:checked ~ ul {
+		left: 0;
+	}
+	
+	main{
+		background-color: rgba(0, 0, 0, .3);
+		width: 150%;
+	}
+	header{
+		width: 150%;
+	}
+	footer{
+		width: 150%;
+	}
+}
+@media (max-width: 280px){
+	header{
+		width: 193%;
+	}
+	main{
+		background-color: rgba(0, 0, 0, .3);
+		width: 193%;
+	}
+	footer{
+		width: 193%;
+	}
+}
